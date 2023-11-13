@@ -1,0 +1,49 @@
+:root {
+	--accent-clr: rgb(255, 147, 7);
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul {
+	list-style: none;
+	display: flex;
+	gap: 1rem;
+}
+
+h3 {
+	text-shadow: 0 0 4px #111;
+	font-size: clamp(1.2rem, 4vw, 2rem);
+	color: white;
+	/* margin-bottom: 2rem; */
+}
+
+main {
+	min-height: 85vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.container-fluid {
+	padding: 0;
+}
+
+.card-group {
+	margin: 2rem auto;
+}
+
+footer {
+	padding: 1rem 0;
+	background-color: black;
+	color: white;
+	text-align: center;
+}
