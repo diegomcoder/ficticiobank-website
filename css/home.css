@@ -25,6 +25,29 @@ h3 {
 	/* margin-bottom: 2rem; */
 }
 
+/* .icon {
+	width: 1.4rem;
+	height: 1.4rem;
+} */
+
+.icon {
+	height: 1.3rem;
+	width: 1.3rem;
+	margin-right: .5rem;
+}
+
+.service-icon {
+	filter: brightness(0) saturate(100%) invert(62%) sepia(74%) saturate(2003%) hue-rotate(351deg) brightness(103%) contrast(101%);
+}
+
+.icon-up {
+	filter: brightness(0) saturate(100%) invert(24%) sepia(77%) saturate(4242%) hue-rotate(351deg) brightness(92%) contrast(136%);
+}
+
+.icon-down {
+	filter: brightness(0) saturate(100%) invert(57%) sepia(13%) saturate(1732%) hue-rotate(72deg) brightness(99%) contrast(98%);
+}
+
 main {
 	min-height: 85vh;
 	display: flex;
