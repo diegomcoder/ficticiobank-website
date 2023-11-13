@@ -1,0 +1,110 @@
+:root {
+	--accent-clr: rgb(255, 147, 7);
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul {
+	list-style: none;
+	display: flex;
+	gap: 1rem;
+}
+
+h3 {
+	text-shadow: 0 0 4px #111;
+	font-size: clamp(1.2rem, 4vw, 2rem);
+	color: white;
+	/* margin-bottom: 2rem; */
+}
+
+label {
+	font-weight: 500;
+	color: white;
+	text-shadow: 1px 1px 4px #111;
+
+}
+
+main {
+	min-height: 85vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+/* .home {
+	background-color: #ddd;
+} */
+
+form {
+	max-width: 400px;
+}
+
+html,
+body {
+	min-height: 100vh;
+	position: relative;
+}
+
+.img-container {
+	position: relative;
+	overflow: hidden;
+	border-radius: 5rem;
+}
+
+.img-container img {
+	height: 150%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.container-fluid {
+	padding: 0;
+}
+
+#mainSlider .carousel-inner,
+#mainSlider .carousel-item {
+	max-height: 90vh;
+}
+
+#mainSlider .carousel-caption {
+	top: 30%;
+}
+
+#mainSlider .carousel-caption h2 {
+	font-size: clamp(1.5rem, 8vw, 5rem);
+	text-shadow: 0 0 4px #111;
+}
+
+#mainSlider .carousel-caption h3 {
+	text-shadow: 0 0 4px #111;
+	font-size: clamp(1.2rem, 4vw, 2rem);
+	/* margin-bottom: 2rem; */
+}
+
+#mainSlider .carousel-caption p {
+	text-shadow: 1px 1px 2px #111;
+	font-size: clamp(1rem, 3vw, 1.4rem);
+	font-weight: 600;
+	margin-bottom: 4vh;
+}
+.card-group {
+	margin: 2rem auto;
+}
+
+footer {
+	padding: 1rem 0;
+	background-color: black;
+	color: white;
+	text-align: center;
+}
